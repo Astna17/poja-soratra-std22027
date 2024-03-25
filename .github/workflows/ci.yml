@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - '*'
+      - 'preprod'
   pull_request:
     branches:
-      - '*'
+      - 'prod'
   workflow_dispatch:
 
   workflow_call:
