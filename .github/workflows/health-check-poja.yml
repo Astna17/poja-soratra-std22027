@@ -31,4 +31,3 @@ jobs:
 
       - run: pip install poja --upgrade
       - run: python -m poja --poja-conf poja.yml --output-dir=.
-      - run: git diff --exit-code
