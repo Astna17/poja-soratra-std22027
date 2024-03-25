@@ -10,7 +10,7 @@ custom_java_env_vars: poja-custom-java-env-vars.txt
 custom_java_repositories: poja-custom-java-repositories.txt
 database_non_root_password: null
 database_non_root_username: null
-frontal_memory: 2048
+frontal_memory: 512
 jacoco_min_coverage: '0.8'
 java_facade_it: FacadeIT
 package_full_name: hei.school.soratra
@@ -32,4 +32,4 @@ with_snapstart: 'false'
 with_sonar: 'false'
 with_swagger_ui: 'false'
 worker_batch: 5
-worker_memory: 1024
+worker_memory: 512
